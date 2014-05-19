@@ -84,7 +84,7 @@
 			{
 				contextMenu=this.destroyContextMenu();
 			}
-			contextMenu=this.createContextMenu(this.createMenuItems(["from SAP","to SAP"]));
+			contextMenu=this.createContextMenu(this.createMenuItems(["A","B"]));
 			map.getDiv().appendChild(contextMenu);
 			setMenuXY(currentLatLng,map);
 			console.log(contextMenu);
